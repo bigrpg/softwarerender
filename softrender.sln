@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SoftRenderTest", "softrender.vcxproj", "{CBC7AF63-ADF9-419F-9603-C1B516F0C36C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D566BC7B-5BDB-4477-BA4A-D49F904F5F31} = {D566BC7B-5BDB-4477-BA4A-D49F904F5F31}
+		{DD9EA58C-0F9D-4DAC-993A-EF143349FE71} = {DD9EA58C-0F9D-4DAC-993A-EF143349FE71}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SREngine", "..\lib\SREngine\SREngine.vcxproj", "{DD9EA58C-0F9D-4DAC-993A-EF143349FE71}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "math", "..\lib\math\math.vcxproj", "{D566BC7B-5BDB-4477-BA4A-D49F904F5F31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBC7AF63-ADF9-419F-9603-C1B516F0C36C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CBC7AF63-ADF9-419F-9603-C1B516F0C36C}.Debug|Win32.Build.0 = Debug|Win32
+		{CBC7AF63-ADF9-419F-9603-C1B516F0C36C}.Release|Win32.ActiveCfg = Release|Win32
+		{CBC7AF63-ADF9-419F-9603-C1B516F0C36C}.Release|Win32.Build.0 = Release|Win32
+		{DD9EA58C-0F9D-4DAC-993A-EF143349FE71}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DD9EA58C-0F9D-4DAC-993A-EF143349FE71}.Debug|Win32.Build.0 = Debug|Win32
+		{DD9EA58C-0F9D-4DAC-993A-EF143349FE71}.Release|Win32.ActiveCfg = Release|Win32
+		{DD9EA58C-0F9D-4DAC-993A-EF143349FE71}.Release|Win32.Build.0 = Release|Win32
+		{D566BC7B-5BDB-4477-BA4A-D49F904F5F31}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D566BC7B-5BDB-4477-BA4A-D49F904F5F31}.Debug|Win32.Build.0 = Debug|Win32
+		{D566BC7B-5BDB-4477-BA4A-D49F904F5F31}.Release|Win32.ActiveCfg = Release|Win32
+		{D566BC7B-5BDB-4477-BA4A-D49F904F5F31}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
